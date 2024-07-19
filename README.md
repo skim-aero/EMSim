@@ -4,5 +4,5 @@ This is the simulation code for the comparison of ellipsoidal methods for multi-
 
 For the detail of the algorithms/methods, please refer to the original papers follows:
 
-**Developed by Sukkeun Kim, Cranfield University, UK**
+**Coded by Sukkeun Kim, Cranfield University, UK**
 * Email: <s.kim.aero@gmail.com>
