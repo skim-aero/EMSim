@@ -1,5 +1,5 @@
 function [xC,PC] = STE(xA,PA,xB,PB)
-% Set theoritic estimation
+% Set theoritic estimation 
 
 f = @(w) trace(inv(w*inv(PA)+(1-w)*inv(PB)));
 

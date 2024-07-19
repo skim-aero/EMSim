@@ -2,7 +2,7 @@ function [xC,PC,omega] = ICI(xA,PA,xB,PB)
 % Inverse Covariance Intersection 
 %
 % This function implements the ICI algorithm 
-% and fuses two estimates (xA,PA) and (xB,PB). 
+% and fuses two estimates (xA,PA) and (xB,PB).
 % It provides the fusion result (xC,PC) and the 
 % value of omega, which minimizes the trace of PC. 
 

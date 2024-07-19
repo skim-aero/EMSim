@@ -1,6 +1,6 @@
 function [r_ellipse,X0,Y0] = calcEllipse(mean, covariance)
 
-% Calculate the eigenvectors and eigenvalues
+% Calculate the eigenvectors and eigenvalues 
 [eigenvec, eigenval] = eig(covariance);
 
 % Get the index of the largest eigenvector

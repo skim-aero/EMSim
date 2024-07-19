@@ -1,7 +1,7 @@
 clear all;
 close all;
 
-% Mean and covariance of the estimates to be fused
+% Mean and covariance of the estimates to be fused 
 PAB = [0.5 0; 0 0.5];
 
 % xA = [1; 2];

@@ -1,5 +1,5 @@
 function [xC,PC] = IEA(xA,PA,xB,PB,x0)
-% Internal ellipsoid approximation
+% Internal ellipsoid approximation 
 
 %% Calculate beta using fmincon
 % f1 = @(x) transpose(x)*inv(PA)*x;

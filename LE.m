@@ -1,5 +1,5 @@
 function [xC,PC] = LE(xA,PA,xB,PB)
-% Largest ellipsoid method
+% Largest ellipsoid method 
 
 % Calculate transformation matrix T_r and transform
 [T_r,~] = eig(PA);

@@ -3,7 +3,7 @@ function [xC,PC] = EI(xA,PA,xB,PB)
 
 s = 10E-6;
 
-% Eigenvalue decomposition of PA (First equation in eq 12a)
+% Eigenvalue decomposition of PA (First equation in eq 12a) 
 [EA,DA] = eig(PA);
 
 % Second equation in eq 12a and decomposition
